@@ -1,0 +1,32 @@
+{
+    "emp_detail":[
+        {
+            "name": "John",
+            "age": 30,
+            "married": true,
+            "divorced": false,
+            "children": ["Ann","Billy"],
+            "pets": null,
+            "cars": [
+              {"model": "BMW 230", "mpg": 27.5},
+              {"model": "Ford Edge", "mpg": 24.1}
+            ]
+
+          },
+          {
+            "name": "Johny",
+            "age": 30,
+            "married": true,
+            "divorced": false,
+            "children": ["Jiynn","Silly"],
+            "pets": ["Dog","Cat"],
+            "cars": [
+              {"model": "Nexon 230", "mpg": 27.5},
+              {"model": "Ford Edge", "mpg": 24.1}
+            ]
+
+          }
+          
+          
+    ]
+}
