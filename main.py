@@ -1,5 +1,6 @@
 
-
+import json
+from icecream import ic
 # concat and add
 # x = 6
 # y= "8"
@@ -261,16 +262,48 @@ print(x1.standard)
 
 # Scope
 #LEGB rule: LOcal, 
+try:
+    x =3
+    def add():
+        
+        y = 4
+        z=x+y
+        return z
+    print(add())
+    a = x+2
+    print(a)
 
-x =3
-def add():
-    
-    y = 4
-    z=x+y
-    return z
-print(add())
-a = x+2
-print(a)
+    print("HEllo World")
+    print("python")
 
-print("HEllo World")
-print("python")
+except:
+    print("there is some error")
+
+#Error: IOError: if the file can't be opened
+try:
+    with open("json_data1.json", "r") as f:
+        f.close()
+except:
+    print("file not found")
+
+
+#keyboardInterrupt:
+try:
+    x= (input("enter first number: "))
+    y = (input("enter second number: "))
+    # z = input("enter operator")
+    sum = (x)/(y)
+    print("sum is", sum)
+    ic(sum)
+except:
+    print("value error")
+
+# Value Error:
+# EOFError:
+# ImportError
+# ZeroDivisionError
+# IndentationError
+
+
+
+
