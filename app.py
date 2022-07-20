@@ -87,5 +87,22 @@ print(d1)
 with open('json_data.json','w') as outputFile:
     json.dump(x,outputFile, indent=6)
 
+# try except and finally
+x = float(input("enter any number:"))
+y = float(input("enter any number:"))
+while x>-10:
+    try:
+        f = float(input("enter any number:"))
+        z= y/x
+        
+        print(z)
+    except:
+        print(y,"can not be divide by", x)
+    x=x-1
+
+# zerodivision error
+
+
+
 
 
